@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Perl when checking for undefined variables. The file 'bug.pl' contains the erroneous code, while 'bugSolution.pl' provides the correct approach. The issue arises from using the 'eq' operator to compare a variable to 'undef'.  'eq' performs string comparison, and undef is not a string.  The correct approach uses defined().
